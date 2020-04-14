@@ -1,0 +1,12 @@
+ glove = np.loadtxt(glove_vectors, dtype='str', comments=None)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\python3\lib\site-packages\numpy\lib\npyio.py", line 1159, in loadtxt
+    for x in read_data(_loadtxt_chunksize):
+  File "C:\python3\lib\site-packages\numpy\lib\npyio.py", line 1075, in read_data
+    for i, line in enumerate(line_iter):
+  File "C:\python3\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 2776: character maps to <undefined>
+
+-0.30241
